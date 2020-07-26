@@ -1,0 +1,38 @@
+.box {
+    width: 100vw;
+    background-color: cadetblue;
+    height: 250px;
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    position: relative;
+    padding: 3px;
+    height: 30px;
+}
+.container {
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 40px;
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    transition: left 0.8s cubic-bezier(0.13, 0.13, 0.74, 0.1);
+}
+
+.child {
+    width: 150px;
+    height: 70%;
+    background-color: pink;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
